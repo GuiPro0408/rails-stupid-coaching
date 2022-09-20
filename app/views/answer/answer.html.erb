@@ -1,0 +1,16 @@
+<div class="container-fluid">
+  <h1 class = "mb-5">Answer of the coach</h1>
+
+  <div class="container-fluid shadow-sm p-3 mb-5 bg-body rounded border-start border-5 border-primary">
+    <p class = "fw-bold"><%= @question %></p>
+    <p class = "fst-italic">- You</p>
+  </div>
+
+  <div class="container-fluid shadow-sm p-3 mb-5 bg-body rounded border-start border-5 border-warning">
+    <P class = "fw-bold"><%= @answer %></P>
+    <p class = "fst-italic">- Your Coach</p>
+  </div>
+
+  <%= link_to "Ask a new question", ask_path, class: "btn btn-primary" %>
+</div>
+
